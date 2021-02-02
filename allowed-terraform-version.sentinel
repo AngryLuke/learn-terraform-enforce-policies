@@ -1,5 +1,5 @@
 import "tfplan"
 
 main = rule {
-  tfplan.terraform_version matches "^[[:graph:]]*\\s0\\.12\\.\\d+$" 
+  tfplan.terraform_version matches ">=\s0\\.12\\.\\d+$" 
 }
