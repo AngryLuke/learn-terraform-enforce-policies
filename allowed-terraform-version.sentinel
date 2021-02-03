@@ -1,5 +1,5 @@
-import "tfplan"
+import "tfplan/v2" as tfplan
 
 main = rule {
-  tfplan.terraform_version matches "^[>=]*\\s0\\.12\\.\\d+$" 
+  tfplan.terraform_version matches "^0\\.[1][2-9]\\.\\d+$" 
 }
