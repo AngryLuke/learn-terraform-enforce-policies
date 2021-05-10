@@ -106,7 +106,7 @@ mandatory_tags = [
   "Name",
   "owner",
   "ttl",
-  "se-region"
+  "se-region",
 ]
 
 ### Rules ###
